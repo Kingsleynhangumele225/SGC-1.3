@@ -25,13 +25,13 @@
         <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
            
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
+                <a href="" class="simple-text">
                     COLÉGIO 911
                 </a>
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
-                          <li class="active">
+                          <li>
                         <a href="index.html">
                             <i class="material-icons">dashboard</i>
                             <p>HOME</p>
@@ -43,16 +43,16 @@
                             <p>PERFIL</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="./Consultas.html">
                             <i class="material-icons">content_paste</i>
-                            <p>MANUNTENÇÃO</p>
+                            <p>CONTROLO</p>
                         </a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="./Cadastros.html">
                             <i class="material-icons">library_books</i>
-                            <p>CADASTROS</p>
+                            <p>MANUNTENÇÃO</p>
                         </a>
                     </li>
                     <li>
@@ -95,10 +95,10 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
+                                    <span class="notification">290</span>
                                     <p class="hidden-lg hidden-md">notifications</p>
                                 </a>
-                                <ul class="dropdown-menu">
+                            <ul class="dropdown-menu">
                                     <li>
                                         <a href="#">O Encarregado João Paulo marcou uma sessão de reunião remota com o professor Martins Tivane</a>
                                     </li>
@@ -136,102 +136,65 @@
             </nav>
             <div class="content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="card">
-                                <div class="card-header" data-background-color="purple">
-                                    <h4 class="title">CADASTRO</h4>
-                                    <p class="category">Consulta</p>
-                                </div>
-                                <div class="card-content">
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">IDConsulta</label>
-                                                    <input type="text" class="form-control" disabled>
-                                                </div>
+				 <div class="row">
+                                            <div class="col-md-4">
+                                               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Classe
+												<span class="caret"></span></button>
+												<ul class="dropdown-menu">
+												<li><a href="#">6ª</a></li>												
+												<li><a href="#">7ª</a></li>
+												<li><a href="#">8ª</a></li>
+												<li><a href="#">9ª</a></li>
+												<li><a href="#">10ª</a></li>
+												<li><a href="#">11ª</a></li>
+												<li><a href="#">12ª</a></li>
+											  </ul>
                                             </div>
                                             <div class="col-md-3">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Nome da Consulta</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Turma
+												<span class="caret"></span></button>
+												<ul class="dropdown-menu">
+												<li><a href="#">A</a></li>
+												<li><a href="#">B</a></li>
+												<li><a href="#">C</a></li>
+											  </ul>
                                             </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Hora</label>
-                                                    <input type="email" class="form-control">
-                                                </div>
-                                            </div>
+											
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Nome do paciente</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                       <!-- <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Adress</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">City</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Country</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Postal Code</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label>Comentario</label>
-                                                    <div class="form-group label-floating">
-                                                        <label class="control-label"> Informacao adicional</label>
-                                                        <textarea class="form-control" rows="5"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary pull-right">Gravar</button>
-                                        <div class="clearfix"></div>
-                                    </form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header" data-background-color="purple">
+                                    <h4 class="title">Lista de actividades curriculares </h4>
+                                    <p class="category"></p>
+                                </div>
+								
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-primary">
+                                            <th>Aluno ID</th>
+                                            <th>Nome</th>
+                                            <th>Classe</th>
+                                            <th>Turma</th>
+                                        </thead>
+                                       
+                                    </table>
                                 </div>
                             </div>
                         </div>
-                       
+                      
                     </div>
                 </div>
             </div>
             <footer class="footer">
                 <div class="container-fluid">
-  
+                   
                     <p class="copyright pull-right">
                         &copy;
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <a href="http://www.creative-tim.com">SGC</a> 
+                        <a href="">SGC</a> 
                     </p>
                 </div>
             </footer>

@@ -25,13 +25,13 @@
         <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
            
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
+                <a href="" class="simple-text">
                     COLÉGIO 911
                 </a>
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
-                          <li class="active">
+                          <li>
                         <a href="index.html">
                             <i class="material-icons">dashboard</i>
                             <p>HOME</p>
@@ -43,16 +43,16 @@
                             <p>PERFIL</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="./Consultas.html">
+                    <li class="active">
+                        <a href="./Controlo.html">
                             <i class="material-icons">content_paste</i>
-                            <p>MANUNTENÇÃO</p>
+                            <p>CONTROLO</p>
                         </a>
                     </li>
-                    <li class="active">
-                        <a href="./Cadastros.html">
-                            <i class="material-icons">library_books</i>
-                            <p>CADASTROS</p>
+                    <li>
+                                                <a href="./Cadastros.html">
+                            <i class="material-icons">add_to_queue</i>
+                            <p>MANUNTENÇÃO</p>
                         </a>
                     </li>
                     <li>
@@ -61,14 +61,24 @@
                             <p>PESQUISAS</p>
                         </a>
                     </li>
-                    
+                    <li >
+                        <a href="./APE.html">
+                            <i class="material-icons">question_answer</i>
+                            <p>APE</p>
+                        </a>
+                    </li>
                     <li>
                         <a href="./notifications.html">
                             <i class="material-icons text-gray">notifications</i>
-                            <p>notifications</p>
+                            <p>NOTIFICAÇÕES </p>
                         </a>
                     </li>
-                    
+                    <li>
+                        <a href="./report.html">
+                            <i class="material-icons text-gray">print</i>
+                            <p>RELATÓRIO </p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -95,10 +105,10 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
+                                    <span class="notification">290</span>
                                     <p class="hidden-lg hidden-md">notifications</p>
                                 </a>
-                                <ul class="dropdown-menu">
+                            <ul class="dropdown-menu">
                                     <li>
                                         <a href="#">O Encarregado João Paulo marcou uma sessão de reunião remota com o professor Martins Tivane</a>
                                     </li>
@@ -137,106 +147,38 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header" data-background-color="purple">
-                                    <h4 class="title">CADASTRO</h4>
-                                    <p class="category">Paciente</p>
+                                    <h4 class="title">Lista de actividades curriculares </h4>
+                                    <p class="category"></p>
                                 </div>
-                                <div class="card-content">
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">IdPaciente </label>
-                                                    <input type="text" class="form-control" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">username</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">email</label>
-                                                    <input type="email" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Primeiro Nome</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Ultimo Nome</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Endereco</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Distrito</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Provincia</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Contacto</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label>Comentarios</label>
-                                                    <div class="form-group label-floating">
-                                                        <label class="control-label"> Informacao adicional <label>
-                                                        <textarea class="form-control" rows="5"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary pull-right">Gravar</button>
-                                        <div class="clearfix"></div>
-                                    </form>
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-primary">
+                                            <th>Aluno</th>
+                                            <th>Classe</th>
+                                            <th>Disciplina</th>
+                                            <th>Actividade</th>
+                                        </thead>
+                                       
+                                    </table>
                                 </div>
                             </div>
                         </div>
-                       
+                      
                     </div>
                 </div>
             </div>
             <footer class="footer">
                 <div class="container-fluid">
-  
+                   
                     <p class="copyright pull-right">
                         &copy;
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <a href="http://www.creative-tim.com">SGC</a> 
+                        <a href="">SGC</a> 
                     </p>
                 </div>
             </footer>

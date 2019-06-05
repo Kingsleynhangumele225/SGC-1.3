@@ -25,7 +25,7 @@
         <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
            
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
+                <a href=# class="simple-text">
                     COLÉGIO 911
                 </a>
             </div>
@@ -44,15 +44,21 @@
                         </a>
                     </li>
                     <li>
-                        <a href="./Consultas.html">
+                        <a href="./Controlo.html">
                             <i class="material-icons">content_paste</i>
+                            <p>CONTROLO</p>
+                        </a>
+                    </li>
+					<li>
+                        <a href="./Cadastros.html">
+                            <i class="material-icons">add_to_queue</i>
                             <p>MANUNTENÇÃO</p>
                         </a>
                     </li>
-                    <li class="active">
-                        <a href="./Cadastros.html">
-                            <i class="material-icons">library_books</i>
-                            <p>CADASTROS</p>
+					  <li class="active">
+                        <a href="./APE.html">
+                            <i class="material-icons">question_answer</i>
+                            <p>APE</p>
                         </a>
                     </li>
                     <li>
@@ -65,10 +71,15 @@
                     <li>
                         <a href="./notifications.html">
                             <i class="material-icons text-gray">notifications</i>
-                            <p>notifications</p>
+                            <p>NOTIFICAÇÕES </p>
                         </a>
                     </li>
-                    
+                    <li>
+                        <a href="./report.html">
+                            <i class="material-icons text-gray">print</i>
+                            <p>RELATÓRIO </p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -140,85 +151,62 @@
                         <div class="col-md-8">
                             <div class="card">
                                 <div class="card-header" data-background-color="purple">
-                                    <h4 class="title">CADASTRO</h4>
-                                    <p class="category">Medico</p>
+                                    <h4 class="title">Marcação de reunião</h4>
+                                    <p class="category"></p>
                                 </div>
                                 <div class="card-content">
                                     <form>
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">IDMedico</label>
-                                                    <input type="text" class="form-control" disabled>
-                                                </div>
+   										<div class="row">
+                                            <div class="col-md-4">
+                                               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Aluno
+												<span class="caret"></span></button>
+												<ul class="dropdown-menu">
+												<li><a href="#">João Antonio Da Silva Nduda</a></li>												
+												<li><a href="#">Jessica Ana Nduda</a></li>
+												<li><a href="#">Tomas Nduda Junior</a></li>
+											  </ul>
                                             </div>
                                             <div class="col-md-3">
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Encarregado
+												<span class="caret"></span></button>
+												<ul class="dropdown-menu">
+												<li><a href="#">Tomas Nduda</a></li>
+												<li><a href="#">Ana Raquel</a></li>
+											  </ul>
+                                            </div>
+											<div class="col-md-3">
+											<div class="dropdown">
+												<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Professor
+												<span class="caret"></span></button>
+												<ul class="dropdown-menu">
+												<li><a href="#">Claudio Esmael</a></li>
+												<li><a href="#">Felizardo Massimbe</a></li>
+												<li><a href="#">Agostinho Neto</a></li>
+											  </ul>
+											</div>
+										    </div>
+                                        </div>
+										<div class="row">
+                                            <div class="col-md-4">
                                                 <div class="form-group label-floating">
-                                                    <label class="control-label">Username</label>
+                                                    <label class="control-label">Aluno</label>
                                                     <input type="text" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group label-floating">
-                                                    <label class="control-label">Email</label>
-                                                    <input type="email" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Primeiro Nome</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Segundo Nome</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Endereco</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Distrito</label>
+                                                    <label class="control-label">Encarregado</label>
                                                     <input type="text" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group label-floating">
-                                                    <label class="control-label">Provincia</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label"> Numero de Medico</label>
+                                                    <label class="control-label">Professor</label>
                                                     <input type="text" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label>Comentario</label>
-                                                    <div class="form-group label-floating">
-                                                        <label class="control-label"> Informacao adicional</label>
-                                                        <textarea class="form-control" rows="5"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary pull-right">GRAVAR</button>
+										<button type="submit" class="btn btn-primary pull-right">Requerer</button>
                                         <div class="clearfix"></div>
                                     </form>
                                 </div>
@@ -236,7 +224,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <a href="http://www.creative-tim.com">SGC</a> 
+                        <a href=#>SGC</a> 
                     </p>
                 </div>
             </footer>

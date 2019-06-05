@@ -25,13 +25,13 @@
         <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
            
             <div class="logo">
-                <a href="" class="simple-text">
+                <a href=# class="simple-text">
                     COLÉGIO 911
                 </a>
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
-                          <li>
+                          <li class="active">
                         <a href="index.html">
                             <i class="material-icons">dashboard</i>
                             <p>HOME</p>
@@ -44,15 +44,21 @@
                         </a>
                     </li>
                     <li>
-                        <a href="./Consultas.html">
+                        <a href="./Controlo.html">
                             <i class="material-icons">content_paste</i>
+                            <p>CONTROLO</p>
+                        </a>
+                    </li>
+					<li>
+                        <a href="./Cadastros.html">
+                            <i class="material-icons">add_to_queue</i>
                             <p>MANUNTENÇÃO</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="./Cadastros.html">
-                            <i class="material-icons">library_books</i>
-                            <p>CADASTROS</p>
+					  <li class="active">
+                        <a href="./APE.html">
+                            <i class="material-icons">question_answer</i>
+                            <p>APE</p>
                         </a>
                     </li>
                     <li>
@@ -62,13 +68,18 @@
                         </a>
                     </li>
                     
-                    <li class="active"> 
+                    <li>
                         <a href="./notifications.html">
                             <i class="material-icons text-gray">notifications</i>
-                            <p>notifications</p>
+                            <p>NOTIFICAÇÕES </p>
                         </a>
                     </li>
-                    
+                    <li>
+                        <a href="./report.html">
+                            <i class="material-icons text-gray">print</i>
+                            <p>RELATÓRIO </p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -82,7 +93,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"> notifications </a>
+                        <a class="navbar-brand" href="#">  </a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -95,10 +106,10 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="material-icons">notifications</i>
-                                    <span class="notification">290</span>
+                                    <span class="notification">5</span>
                                     <p class="hidden-lg hidden-md">notifications</p>
                                 </a>
-                            <ul class="dropdown-menu">
+                                <ul class="dropdown-menu">
                                     <li>
                                         <a href="#">O Encarregado João Paulo marcou uma sessão de reunião remota com o professor Martins Tivane</a>
                                     </li>
@@ -136,114 +147,67 @@
             </nav>
             <div class="content">
                 <div class="container-fluid">
-                    <div class="card">
-                        <div class="card-header" data-background-color="purple">
-                            <h4 class="title">Notificacoes</h4>
-                                                    </div>
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h5></h5>
-                                    <div class="alert alert-info">
-                                        <span>Sem nenhuma notificacao</span>
-                                    </div>
-								</div>
-							</div>
-						</div>
-                                   <!-- <div class="alert alert-info">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <span>This is a notification with close button.</span>
-                                    </div>
-                                    <div class="alert alert-info alert-with-icon" data-notify="container">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <i data-notify="icon" class="material-icons">add_alert</i>
-                                        <span data-notify="message">This is a notification with close button and icon.</span>
-                                    </div>
-                                    <div class="alert alert-info alert-with-icon" data-notify="container">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <i data-notify="icon" class="material-icons">add_alert</i>
-                                        <span data-notify="message">This is a notification with close button and icon and have many lines. You can see that the icon and the close button are always vertically aligned. This is a beautiful notification. So you don't have to worry about the style.</span>
-                                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header" data-background-color="purple">
+                                    <h4 class="title">Intercambio </h4>
+                                    <p class="category">Chat com o professor</p>
                                 </div>
-                                <div class="col-md-6">
-                                    <h5>Notification states</h5>
-                                    <div class="alert alert-info">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <span>
-                                            <b> Info - </b> This is a regular notification made with ".alert-info"</span>
-                                    </div>
-                                    <div class="alert alert-success">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <span>
-                                            <b> Success - </b> This is a regular notification made with ".alert-success"</span>
-                                    </div>
-                                    <div class="alert alert-warning">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <span>
-                                            <b> Warning - </b> This is a regular notification made with ".alert-warning"</span>
-                                    </div>
-                                    <div class="alert alert-danger">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <span>
-                                            <b> Danger - </b> This is a regular notification made with ".alert-danger"</span>
-                                    </div>
-                                    <div class="alert alert-primary">
-                                        <button type="button" aria-hidden="true" class="close">×</button>
-                                        <span>
-                                            <b> Primary - </b> This is a regular notification made with ".alert-primary"</span>
-                                    </div>
+                                <div class="card-content">
+                                    <form>
+   										<div class="container">
+											<img src="/w3images/bandmember.jpg" alt="Avatar">
+												<p>Saudações Professor</p>
+												<span class="time-right">11:00</span>
+										</div>
+
+										<div class="container darker">
+										  <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+										  <p>Boa tarde, sr.Encarregado, como está de saúde?</p>
+										  <span class="time-left">11:01</span>
+										</div>
+
+										<div class="container">
+										  <img src="/w3images/bandmember.jpg" alt="Avatar">
+										  <p>Me encontro bem, só preocupado com o meu filho!</p>
+										  <span class="time-right">11:02</span>
+										</div>
+
+										<div class="container darker">
+										  <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+										  <p>O Nduda junior!</p>
+										  <p>O que lhe aflige ?</p>
+										  <span class="time-left">11:05</span>
+										</div>
+										<div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group label-floating">
+                                                    <label class="control-label">Escrever ...</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+											<div class="col-md-3">
+                                                <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+                                        <div class="clearfix"></div>
+										  </div>
+                                        </div>
                                 </div>
                             </div>
-                            <br>
-                            <br>
-                            <div class="places-buttons">
-                                <div class="row">
-                                    <div class="col-md-6 col-md-offset-3 text-center">
-                                        <h5>notifications Places
-                                            <p class="category">Click to view notifications</p>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                                        <div class="col-md-4">
-                                            <button class="btn btn-primary btn-block" onclick="demo.showNotification('top','left')">Top Left</button>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <button class="btn btn-primary btn-block" onclick="demo.showNotification('top','center')">Top Center</button>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <button class="btn btn-primary btn-block" onclick="demo.showNotification('top','right')">Top Right</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                                        <div class="col-md-4">
-                                            <button class="btn btn-primary btn-block" onclick="demo.showNotification('bottom','left')">Bottom Left</button>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <button class="btn btn-primary btn-block" onclick="demo.showNotification('bottom','center')">Bottom Center</button>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <button class="btn btn-primary btn-block" onclick="demo.showNotification('bottom','right')">Bottom Right</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
+                       
                     </div>
                 </div>
             </div>
             <footer class="footer">
                 <div class="container-fluid">
-                    <!-- <!--   --> -->
+  
                     <p class="copyright pull-right">
                         &copy;
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <a href="">SGC</a> 
+                        <a href=#>SGC</a> 
                     </p>
                 </div>
             </footer>

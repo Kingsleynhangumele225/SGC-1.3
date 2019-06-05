@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>SGC</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    <!-- Bootstrap core CSS     -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!--  Material Dashboard CSSCSS    -->
+    <link href="../assets/css/material-dashboard.css?v=1.2.0" rel="stylesheet" />
+ 
+    <link href="../assets/css/demo.css" rel="stylesheet" />
+    <!--     Fontes    -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons" rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
+           
+            <div class="logo">
+                <a href="" class="simple-text">
+                    COLÉGIO 911
+                </a>
+            </div>
+            <div class="sidebar-wrapper">
+                <ul class="nav">
+                          <li>
+                        <a href="index.html">
+                            <i class="material-icons">dashboard</i>
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./user.html">
+                            <i class="material-icons">person</i>
+                            <p>PERFIL</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./Controlo.html">
+                            <i class="material-icons">content_paste</i>
+                            <p>CONTROLO</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./Cadastros.html">
+                            <i class="material-icons">add_to_queue</i>
+                            <p>MANUNTENÇÃO</p>
+                        </a>
+                    </li>
+					 
+                    <li>
+                        <a href="./PESQUISAS.html">
+                            <i class="material-icons">bubble_chart</i>
+                            <p>PESQUISAS</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="./APE.html">
+                            <i class="material-icons">question_answer</i>
+                            <p>APE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./notifications.html">
+                            <i class="material-icons text-gray">notifications</i>
+                            <p>NOTIFICAÇÕES </p>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="./report.html">
+                            <i class="material-icons text-gray">print</i>
+                            <p>RELATÓRIO </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <nav class="navbar navbar-transparent navbar-absolute">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">  </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="material-icons">dashboard</i>
+                                    <p class="hidden-lg hidden-md">Dashboard</p>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="material-icons">notifications</i>
+                                    <span class="notification">290</span>
+                                    <p class="hidden-lg hidden-md">notifications</p>
+                                </a>
+                            <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">O Encarregado João Paulo marcou uma sessão de reunião remota com o professor Martins Tivane</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tem 20 novas tarefas</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Aluno " Pedro Massundo " fez um pedido de extrato de material didactico</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Professor " Dimas Berlinde " alterou seu horario de disponibilidade</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="material-icons">person</i>
+                                    <p class="hidden-lg hidden-md">Profile</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group  is-empty">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="material-input"></span>
+                            </div>
+                            <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                                <i class="material-icons">search</i>
+                                <div class="ripple-container"></div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+
+ <div id="fullscreen_bg" class="fullscreen_bg"/>
+ <form class="form-signin">
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 col-md-offset-2">
+        
+        <div class="panel panel-default">
+        
+        <div class="panel panel-primary">
+        
+            
+            <div class="text-center">
+                <h3 style="color:#2C3E50" >Reporte Financeiro</h3>
+                <h4> <label for="Choose Report"  style="color:#E74C3C">Reporte</label></h4>
+                <div class="input-group"><span class="input-group-addon"><span class="glyphicon glyphicon-tasks"></span></span>
+                    <select class="form-control"  >
+                                    <option value="Income" selected>Receitas</option>
+                                    <option value="Expenses">Estatisticas</option>
+                                    <option value="Profit">Despesas Mensal</option>
+                                </select></div>                         
+                <h5><label for="Choose Report" style="color:#E74C3C"> Tempo :</label>
+                             <input id="a" type="radio" name="type" value="Daily">Dia 
+                             <input id="b" type="radio" name="type" value="Weekly">Semana
+                             <input id="c" type="radio" name="type" value="Monthly">Mês</h5>
+                                
+                                <div class="customer" >
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                                        <input type="date" class="form-control" placeholder="Date" />
+                                    </div>
+                                </div>
+                </br><button type="button" class="btn btn-primary btn-lg btn3d"><span class="glyphicon glyphicon-search"></span> View</button> 
+            </div>                 
+        <div class="panel-body">    
+ 
+  <table class="table table-striped table-condensed">
+                  <thead>
+                  <tr>
+                      <th class="text-center" width="115px">Num</th>
+                      <th class="text-center" width="115px">Name</th>
+                      <th class="text-center" width="115px">Money</th>
+                      <th class="text-center" width="115px">Date</th>
+                      <th class="text-center" width="115px">Details</th>
+                  </tr>
+              </thead>   
+              <tbody>
+                <tr>
+                    
+                    <td class="text-center" width="150px">1</td>
+                    <td class="text-center" width="150px">Mai Ahmed</td>
+                    <td class="text-center" width="150px">500</span></td>
+                    <td class="text-center" width="150px">3/12/2016</span></td>
+                    <td class="text-center" width="150px">Prescription</span></td>
+                </tr>
+                <tr>
+                    
+                    <td class="text-center">2</td>
+                    <td class="text-center">Mai Ahmed</td>
+                    <td class="text-center">60</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Appoitment</span></td>
+                </tr>
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Ahmed Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr>
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Ahmed Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr>
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+                <tr>
+                    
+                    <td class="text-center">3</td>
+                    <td class="text-center">Waled</td>
+                    <td class="text-center">180</span></td>
+                    <td class="text-center">3/12/2016</span></td>
+                    <td class="text-center">Prescription</span></td>
+                </tr> 
+              </tbody>
+              </table>
+     <div class="text-center">
+            <h4> <label style="color:#E74C3C" for="Total">Total :</label>7740</h4> </div>
+
+              
+              
+  </div>
+       </div>
+        </div>
+   
+
+</form>
+
+       
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <!-- <!--   -->
+                    <p class="copyright pull-right">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+                        <a href="">COLÉGIO 911</a> 
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<!--   Core JS Files   -->
+<script src="../assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/js/material.min.js" type="text/javascript"></script>
+<!--  Charts Plugin -->
+<script src="../assets/js/chartist.min.js"></script>
+<!--  Dynamic Elements plugin -->
+<script src="../assets/js/arrive.min.js"></script>
+<!--  PerfectScrollbar Library -->
+<script src="../assets/js/perfect-scrollbar.jquery.min.js"></script>
+<!--  notifications Plugin    -->
+<script src="../assets/js/bootstrap-notify.js"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Material Dashboard CSSjavascript methods -->
+<script src="../assets/js/material-dashboard.js?v=1.2.0"></script>
+<!-- Material Dashboard CSSDEMO methods, don't include it in your project! -->
+<script src="../assets/js/demo.js"></script>
+
+</html>
